@@ -22,6 +22,7 @@ from qiskit import execute, Aer
 from qiskit.quantum_info.states import state_fidelity
 from .common import QiskitTestCase
 
+
 class TestInitialize(QiskitTestCase):
     """QISKIT InitializeGate tests."""
 
